@@ -23,33 +23,33 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#cc6600'
+define gui.accent_color = '#000000'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#888888'
+define gui.idle_color = '#000000'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = '#aaaaaa'
+define gui.idle_small_color = '#aaaa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#e0a366'
+define gui.hover_color = '#aaaaaa'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = '#ffffff'
+define gui.selected_color = '#555555'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = '#8888887f'
+define gui.insensitive_color = '#0000'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = '#512800'
-define gui.hover_muted_color = '#7a3d00'
+define gui.muted_color = '#0000'
+define gui.hover_muted_color = '#999999'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#ffffff'
-define gui.interface_text_color = '#ffffff'
+define gui.text_color = '#000'
+define gui.interface_text_color = '#999'
 
 
 ## Fonts and Font Sizes ########################################################
@@ -79,7 +79,7 @@ define gui.label_text_size = 24
 define gui.notify_text_size = 16
 
 ## The size of the game's title.
-define gui.title_text_size = 50
+
 
 
 ## Main and Game Menus #########################################################
@@ -209,7 +209,7 @@ define gui.choice_button_borders = Borders(100, 5, 100, 5)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = "#cccccc"
+define gui.choice_button_text_idle_color = "#000000"
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = "#444444"
 
