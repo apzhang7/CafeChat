@@ -219,7 +219,7 @@ style choice_button_text is button_text
 
 style choice_vbox:
     xalign 0.5
-    ypos 270
+    ypos 600
     yanchor 0.5
 
     spacing gui.choice_spacing
@@ -473,7 +473,6 @@ screen game_menu(title, scroll=None, yinitial=0.0):
         style "return_button"
 
         action Return()
-
     label title
 
     if main_menu:
@@ -520,11 +519,6 @@ style game_menu_side:
 style game_menu_label:
     xpos 50
     ysize 120
-
-style game_menu_label_text:
-    size gui.title_text_size
-    color gui.accent_color
-    yalign 0.5
 
 style return_button:
     xpos gui.navigation_xpos
