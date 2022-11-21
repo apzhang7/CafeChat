@@ -1,5 +1,5 @@
 # Cafe Chat by Studio C
-Cafe Chat is a game made by Angela Z., William C., Lorie L., and Rosa G. for our EDG October submission.
+Cafe Chat is a Ren'Py visual novel made by Angela Z., William C., Lorie L., and Rosa G. for our EDG October submission.
 
 -------------------
 
